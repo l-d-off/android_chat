@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "550982714952",
+    "firebase_url": "https://example-38037-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "example-38037",
+    "storage_bucket": "example-38037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550982714952:android:07a75377d1e5a7ae17fa7d",
+        "android_client_info": {
+          "package_name": "com.darf.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550982714952-macq986h081im5rdkig0drehlgb6cgdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darf.example",
+            "certificate_hash": "d73b30fecc284673d9900ba2f900766fc54fda1c"
+          }
+        },
+        {
+          "client_id": "550982714952-v73pjnkjn9a9s9h2dlq4kmd3phcifaat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darf.example",
+            "certificate_hash": "50ba5bfca9d7130ad797200496a53163f591dd4f"
+          }
+        },
+        {
+          "client_id": "550982714952-pfhhsolnl5o5koficg9rg6r2pvgh1vde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw3vG4Wx9CP7oRoQXjNOiJy43lHHh3Kos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550982714952-pfhhsolnl5o5koficg9rg6r2pvgh1vde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

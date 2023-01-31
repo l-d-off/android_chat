@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/messengerFragment"
+        android:name="com.darf.example.fragments.MessengerFragment"
+        android:label="fragment_messenger"
+        tools:layout="@layout/fragment_messenger">
+    </fragment>
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.darf.example.fragments.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/fragment_users">
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.darf.example.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@+id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.darf.example.fragments.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat">
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.darf.example.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+    </fragment>
+    <fragment
+        android:id="@+id/addUserFragment"
+        android:name="com.darf.example.fragments.AddUserFragment"
+        android:label="fragment_add_user"
+        tools:layout="@layout/fragment_add_user" />
+    <fragment
+        android:id="@+id/createChatFragment"
+        android:name="com.darf.example.fragments.CreateChatFragment"
+        android:label="fragment_create_chat"
+        tools:layout="@layout/fragment_create_chat" />
+</navigation>
